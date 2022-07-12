@@ -1,3 +1,13 @@
+<br>
+<div>
+  Date (variable): {{ dateService.date | date:'long'}}<br>
+</div>
+<div>
+  Date (méthode): {{ dateService.getDate() | date:'long'}}
+</div>
+
+<br><hr/><br>
+
 <form [formGroup]="userForm">
   <input formControlName="name">
   <input formControlName="email">

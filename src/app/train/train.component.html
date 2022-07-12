@@ -1,0 +1,9 @@
+<h1>Trains Suisses</h1>
+
+<div *ngFor="let el of trainData.connections">De {{ el.from.station.name }} ({{ el.from.departure | date:'fullDate'}} - {{ el.from.departure | date:'shortTime'}}) à
+{{ el.to.station.name }} ({{ el.to.arrival | date:'fullDate' }} - {{ el.to.arrival | date:'shortTime' }})</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+trainData (variable):<br>
+{{ trainData.connections[0] | json }}
+
