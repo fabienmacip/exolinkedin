@@ -1,3 +1,7 @@
+.highlighted{
+  background-color: blue;
+}
+
 p{
   background-color: red;
   font-family: monospace;

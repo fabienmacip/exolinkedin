@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  date = new Date();
+
+  color = false;
+
   user = "Elise";
+
+  elements=[41,42,33,6];
 
   constructor() { }
 

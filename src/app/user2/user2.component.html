@@ -1,0 +1,13 @@
+<form [formGroup]="userForm">
+  <input formControlName="name">
+  <input formControlName="email">
+  <button (click)="showForm()">Soumettre</button>
+</form>
+
+Test : {{ userForm.value.name }} - {{ userForm.value.email }}
+
+
+<br><br><br><hr><br><br><br>
+<input [formControl]="userInput">
+<br>
+Test : {{ userInput.value }}

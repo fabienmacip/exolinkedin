@@ -1,3 +1,12 @@
+<div>{{ date | date:"short"}}</div>
+
+<div [ngClass]="{'highlighted':color}">Directive d'attribut</div>
+
+<div *ngFor="let element of elements; let i">Hello {{ i }}</div>
+
+<div *ngFor="let element of elements; let i" [ngClass]="{'highlighted':i % 2 === 0}">Hello avec ngClass {{ i }}</div>
+
+
 <p user=[user]>Bonjour {{ user }}</p>
 <button class="submitButton" (click)="userClick()">Cliquer</button>
 <img src="assets/gwamar1.jpg">
