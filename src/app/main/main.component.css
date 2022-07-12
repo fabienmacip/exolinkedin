@@ -1,0 +1,13 @@
+p{
+  background-color: red;
+  font-family: monospace;
+}
+
+.submitButton{
+  background: none;
+  border: 1px solid;
+}
+
+img{
+  max-width: 400px;
+}
